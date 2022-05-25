@@ -26,16 +26,18 @@
 
 12 - **file /tmp/iamafile**: This script is used to *print the type of file named `iamafile`*
 
-13 - **ln -s /bin/ls ls this is used to create a symbolic link called ls inside /bin/ls
+13 - **ln -s /bin/ls __ls__**: This script is used to *create a symbolic link called `__ls__` inside `/bin/ls`*
 
-14 - cp *.html ../ This is used to copy all html files from the current working directory to the parent working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory
+14 - **cp *.html ../**: This script is used to *copy all the HTML files from the current working directory to the parent working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. In using this script, HTML files with extension `.html` are considered.*
 
-15 - mv [A-Z]* /tmp/u this is used to move all files that begin with an uppercase letter to the directory /tmp/u
+15 - __mv [A-Z]* /tmp/u__: This script is used to *move all files that begin with an uppercase letter to the directory `/tmp/u`*
 
-16 - rm *~ this is used to delete all files in the current working directory that ends with the character ~
+16 - **rm *~**: This script is used to *delete all files in the current working directory that ends with the character `~`*
 
-17 - mkdir {welcome/, welcome/to/, welcome_/to/school} this is used to create multiple directories
+17 - **mkdir welcome_/to/school**: This script is used to *create directories*
 
-18 - ls -map this is used to list all the files and directories of the current directory, separated by commas. The directory names should end with a slash, files and directories starting with a dot should be listed, etc.
+18 - **ls -map**: This script is used to *list all the files and directories of the current directory, separated by commas(`,`). 
+The directory names should end with a slash(`/`). 
+Files and directories starting with a dot (`.`) should be listed.*
 
-19 - type vi school.mgc press i and typels 0 string SCHOOL School data !:mime School press escape and type :wq and press enter type file -m school.mgc* type file -C -m school.mgc git add . git commit -m 'any nonsense' git push
+19 - The magic file `school.mgc` was created then next thing is to insert `0 string SCHOOL School data & !:mime School`. After which we perform `type file -m school.mgc*`,`type file -C -m school.mgc` 
