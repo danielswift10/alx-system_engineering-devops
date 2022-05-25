@@ -1,4 +1,4 @@
-**SHELL BASIC TASKS**
+## SHELL BASIC TASKS
 
 0 - **pwd**: This script *prints the absolute path name of the currently working directory.*
 
@@ -41,3 +41,5 @@ The directory names should end with a slash(`/`).
 Files and directories starting with a dot (`.`) should be listed.*
 
 19 - The magic file `school.mgc` was created then next thing is to insert `0 string SCHOOL School data & !:mime School`. After which we perform `type file -m school.mgc*`,`type file -C -m school.mgc` 
+
+Thanks for reading. 👍
