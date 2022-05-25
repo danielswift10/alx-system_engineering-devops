@@ -8,25 +8,25 @@
 
 3 - **ls -l**: This script *displays the current directory in a long format*
 
-4 - **ls -la**: This script *displays the current directory contents in a long format including hidden files(starting with .)
+4 - **ls -la**: This script *displays the current directory contents in a long format including hidden files(starting with `.`)* 
 
-5 - ls -la this is used to display current directory contents in long format with user and group id displayed
+5 - **ls -la**: This script *displays the current directory contents in a long format including user and group IDs displayed numerically and as well the hidden files(starting with `.`)*
 
-6 - mkdir /tmp/my_first_directory this is used to creat the my_first_directory dir inside tmp directory
+6 - **mkdir /tmp/my_first_directory**: This script *creates a directory named `my_first_directory` in the `/tmp/`*
 
-7 - mv /tmp/betty /tmp/my_first_directory/betty this is used to mvoe betty which is inside tmp dir into my_first_directory dir which is also inside the tmp dir
+7 - **mv /tmp/betty /tmp/my_first_directory/betty**: This script is used to *move the file `betty` from `/tmp/` to `/tmp/my_first_directory`*
 
-8 - rm /tmp/my_first_directory/betty this is used to remove the file betty from the my_first_directory dir
+8 - **rm /tmp/my_first_directory/betty**: This script is used to *delete the file `betty` in `/tmp/my_first_directory`*
 
-9 - rm -r /tmp/my_first_directory this used to remove the my_first_directory dir which is inside tmp dir
+9 - **rm -r /tmp/my_first_directory**: This script is used to *delete the directory `my_first_directory` which is in the `/tmp` directory.*
 
-10 - cd - this is used to change the working directory to the previous directory
+10 - **cd -**: This script is used to *change the working directory to the previous directory*
 
-11 - ls -la . .. /boot this is used to list all files in the current directory and the parent of the working dir and the /boot dir in long format
+11 - **ls -la . .. /boot**: This script is used to *list all files in the current directory and the parent of the working directory and the `/boot` directory in long format*
 
-12 - file /tmp/iamafile this is used to print the type of file named iamafile
+12 - **file /tmp/iamafile**: This script is used to *print the type of file named `iamafile`*
 
-13 - ln -s /bin/ls ls this is used to create a symbolic link called ls inside /bin/ls
+13 - **ln -s /bin/ls ls this is used to create a symbolic link called ls inside /bin/ls
 
 14 - cp *.html ../ This is used to copy all html files from the current working directory to the parent working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory
 
