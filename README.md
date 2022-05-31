@@ -1,2 +1,2 @@
 Hello there! 👋
-This repository is based on Shell Basics, Permissions 📔
+This repository is based on Shell Basics, Permissions, Redirections📔
